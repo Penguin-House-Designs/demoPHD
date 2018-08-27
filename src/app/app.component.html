@@ -1,0 +1,143 @@
+<!-- 
+<particles [style]="myStyle" [width]="width" [height]="height" [params]="myParams"></particles>
+  <div class='navbar'  >
+    <img src="../assets/images/penguin_logo_white_small.png" class='penguin_logo_nav' />
+    <div class='contact_btn' >Contact Us</div>
+  </div>
+
+
+<div class='welcome_PHD' >
+
+  <h1 class='phd_name' > <span style='color:white;' >P</span>enguin <span style='color:white;' >H</span>ouse <span style='color:white;' >D</span>esigns </h1>
+  <div class='tag-line' >
+      <span style='color:white;' >precisely</span> built.
+      <br> <span style='color:white;' >creatively</span> designed.
+
+  </div>
+
+</div>
+<div class='what_we_do' >
+
+  <div class='cpu_box' >
+    <div class='cpu_btns_holder' >
+    </div>
+    <div class='cpu_bar' >Digital Marketing</div>
+    <div class='cpu_inner_box' >
+      <div class='cpu_inner_box_split' >Web Design</div>
+      <div class='cpu_inner_box_split' >Bussiness Development</div>
+    </div>
+    <div class='cpu_inner_box' >
+      <div class='cpu_inner_box_split' >SEO/PPC</div>
+      <div class='cpu_inner_box_split' >IOS/Android Apps</div>
+    </div>
+    
+
+  </div>
+
+  <h2 class='wwd_title' ><span style='color:white;' >W</span>hat <span style='color:white;' >W</span>e <span style='color:white;' >D</span>o </h2>
+
+  <p class='wwd_para' >
+      &nbsp; 	&nbsp; Penguin house designs is a application consulting firm that specializes in custom web applications. Our primary goal is to bring your concepts to the forefront. Whether it be enterprise level applications to small local business websites. We want to help your business become more successful. PHD will create your ideas from the ground up preparing you every step of the way. If any of this applies to you, from business to sales to expanding your online presents, are digital solutions can make it achievable.     
+  </p>
+
+
+</div>
+
+<div class='how_we_do_it' >
+
+  <h2 class='wwd_title' ><span style='color:white;' >H</span>ow <span style='color:white;' >W</span>e <span style='color:white;' >D</span>o <span style='color:white;' >I</span>t </h2>
+
+  <p class='wwd_para' >
+      &nbsp; 	&nbsp; Penguin house designs is a application consulting firm that specializes in custom web applications. Our primary goal is to bring your concepts to the forefront. Whether it be enterprise level applications to small local business websites. We want to help your business become more successful. PHD will create your ideas from the ground up preparing you every step of the way. If any of this applies to you, from business to sales to expanding your online presents, are digital solutions can make it achievable.     
+  </p>
+
+
+</div>
+ -->
+
+ <div class="load">
+  <div class="blockcont">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+
+      <div class="block"></div>
+      <div class="block2" >
+        <img src="../assets/images/penguin_logo_white.png" class='load-img' >
+      </div>
+      <div class="block"></div>
+
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+  </div>
+</div>
+
+ <particles [style]="myStyle" [width]="width" [height]="height" [params]="myParams"></particles>
+ <div class='new-background' [@loaderAnimate] >
+    
+   <div class='new-left-bar' >
+     <div class='bars color3' >
+       <div class='PHD-text' > P </div>
+     </div>
+     <div class='bars color2' >
+       <div class='PHD-text' > H </div>
+     </div>
+     <div class='bars color1' >
+       <div class='PHD-text' > D </div>
+     </div>
+   </div>
+   <div class='contact-us' [@fadeInOut] *ngIf="!contactUS" (click)="contactAnimation()" >
+     <i class="ion-paper-airplane"></i>
+        Contact Us
+   </div>
+   <div class='contact-us2' [@fadeInOut] *ngIf="showUS" (click)="contactAnimation()" >
+      <i class="ion-android-arrow-back"></i>
+        Back
+   </div>
+   <div class="textbox" >
+      <div class="textbox-inner left-text" >
+          <div>
+              <img src="../assets/images/penguin_logo_white_small.png" class='penguin_logo_nav' />
+            </div>
+      </div>
+      <div class="textbox-inner" >
+          <div name='showFalse'  [@fadeInOut] *ngIf="!contactUS" >
+            <div class="textbox-inner-heading" >
+                <div class="textbox-inner-heading-text" >We</div>     
+                <div class="textbox-inner-heading-text" >Build</div>     
+                <div class="textbox-inner-heading-text" >Software</div>     
+            </div>
+            <div class="textbox-inner-para" >
+                    &nbsp; 	&nbsp; Penguin house designs is a application consulting firm that specializes in custom web applications.  Whether it be enterprise level application to small local business websites, are digital solutions make it achievable.     
+            </div>
+          </div>
+          <div name='showTrue' [@fadeInOut] *ngIf="showUS" >
+            <div class="textbox-inner-para" >
+                We'd love to hear from you!
+            </div>
+            <div class="textbox-inner-para" >
+              <input class='contact-inputs' placeholder="Name" type="text">
+              <input class='contact-inputs' placeholder="Email" type="text">
+              <textarea class='contact-inputs' placeholder="Note" type="text"></textarea>
+            </div>
+                        <div class="textbox-inner-heading" >
+                            <div class="textbox-inner-heading-text" >Send</div>     
+                            <div class="textbox-inner-heading-text" >It</div>     
+                        </div>
+          </div>
+        
+      </div>
+   </div>
+
+ </div>
+
+
+ 
+ 
+ <div>
+   <h1></h1>
+</div>
+<div>
+  <h1></h1>
+</div>
