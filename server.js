@@ -28,7 +28,7 @@ function sendEmailUs(para, res) {
         text: `From: ${para.name}
         Message: ${para.message}`,
         from: "Website request for info!",
-        to: 'penguinhousedesigns@gmail.com',
+        to: '',
         subject: para.email
     }
 
@@ -80,7 +80,7 @@ function sendEmailClient(para, res) {
 
     let clientEmail = {
         text: "",
-        from: "phd@phdesigns.io",
+        from: "",
         to: para.email,
         subject: 'Thank you for contacting us!',
         attachment:
