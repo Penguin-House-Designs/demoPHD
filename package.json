@@ -22,7 +22,10 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "angular-particle": "^1.0.4",
+    "body-parser": "^1.18.3",
     "core-js": "^2.4.1",
+    "emailjs": "^2.2.0",
+    "express": "^4.16.3",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
